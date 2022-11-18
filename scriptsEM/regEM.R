@@ -15,8 +15,6 @@ regEM = function(y, x, ..., tol = 1E-10, family = "MoENormal",
   source("scriptsEM/MetodosNormal.R", local = env)
   source("scriptsEM/MetodosMixNormal.R", local = env)
   source("scriptsEM/MetodosMoENormal.R", local = env)
-  source("scriptsEM/MetodosMoEKernelNormal.R", local = env)
-  source("scriptsEM/MetodosMoEXGNormal.R", local = env)
   source("scriptsEM/resultadosEM.R", local = env)
   source("scriptsEM/auxFuncs.R", local = env)
   
